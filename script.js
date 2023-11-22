@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://task-project.gtpas.repl.co/v1/';
+  const apiRoot = 'https://task-project.gtpas.repl.co/v1/tasks';
   const trelloApiRoot = 'https://task-project.gtpas.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
